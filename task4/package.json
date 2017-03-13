@@ -1,0 +1,8 @@
+{
+"dependencies": {
+    "url-parse": "*",
+    "cheerio": "*",
+    "fetch": "*",
+    "config":"*"
+  }    
+}
