@@ -1,0 +1,43 @@
+page-page2 {
+
+  .toolbar-background-md{
+    background:#D0011B ;
+
+  }
+  .toolbar-title{
+    color:#fff !important;
+  }
+
+  .icon.ion-custom-weather::before{
+    content: url('/assets/img/weather.svg') !important;
+  }
+  .icon.ion-custom-note::before {
+    content: url('/assets/img/note.svg') !important;
+  }
+  .icon.ion-custom-dumbbell::before {
+    content: url('/assets/img/dumbbell.svg') !important;
+  }
+
+  ion-icon[name="menu"]{
+    color:#fff;
+  }
+  .header-md::after{
+    display: none;
+  }
+  .plugins-button{
+    background: transparent;
+    border: 1px solid #D7D7D7;
+    display: inline-block;
+    height: 30vw;
+    width: 28vw;
+    margin: 1%;
+  }
+
+  .plugins-title{
+    padding-top:2vw;
+    height: 20%;
+    font-size: 3vw;
+  }
+}
+
+

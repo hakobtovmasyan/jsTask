@@ -1,0 +1,28 @@
+page-page2 .toolbar-background-md {
+  background: #D0011B; }
+page-page2 .toolbar-title {
+  color: #fff !important; }
+page-page2 .icon.ion-custom-weather::before {
+  content: url("/assets/img/weather.svg") !important; }
+page-page2 .icon.ion-custom-note::before {
+  content: url("/assets/img/note.svg") !important; }
+page-page2 .icon.ion-custom-dumbbell::before {
+  content: url("/assets/img/dumbbell.svg") !important; }
+page-page2 ion-icon[name="menu"] {
+  color: #fff; }
+page-page2 .header-md::after {
+  display: none; }
+page-page2 .plugins-button {
+  background: transparent;
+  border: 1px solid #D7D7D7;
+  display: inline-block;
+  height: 30vw;
+  width: 28vw;
+  margin: 1%; }
+page-page2 .plugins-title {
+  padding-top: 2vw; }
+page-page2 .plugins-title {
+  height: 20%;
+  font-size: 3vw; }
+
+/*# sourceMappingURL=page2.css.map */

@@ -1,0 +1,49 @@
+page-page2 {
+  html{
+    font-size:100%;
+  }
+
+  .toolbar-background-md{
+    background:#D0011B ;
+
+  }
+  .toolbar-title{
+    color:#fff !important;
+  }
+
+  .icon.ion-custom-weather::before{
+    content: url('/assets/img/weather.svg') !important;
+  }
+  .icon.ion-custom-note::before {
+    content: url('/assets/img/note.svg') !important;
+  }
+  .icon.ion-custom-dumbbell::before {
+    content: url('/assets/img/dumbbell.svg') !important;
+  }
+
+  ion-icon[name="menu"]{
+    color:#fff;
+  }
+  .header-md::after{
+    display: none;
+  }
+  .plugins-button{
+    background: transparent;
+    border: 1px solid #D7D7D7;
+    display: inline-block;
+    height: 9rem;
+    width: 9.4rem;
+    margin: 0.4rem;
+  }
+  .plugins-title{
+    padding-top: 0.5rem;
+  }
+
+  .plugins-title{
+    height: 2rem;
+    font-size: 1rem;
+    //padding: 10%;
+  }
+}
+
+

@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Plugins</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+  <ion-list >
+    <button class="plugins-button" *ngFor="let item of items">
+        <div class="plugins-icon icon {{item.icon}}">
+            <!--<i class="icon {{item.icon}}"></i>-->
+        </div>
+        <div class="plugins-title">
+            {{item.title}}
+        </div>
+    </button>
+  </ion-list>
+
+</ion-content>

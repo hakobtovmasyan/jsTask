@@ -1,0 +1,22 @@
+page-page1 {
+  .toolbar-background-md{
+    background:#FF7878 !important;
+  }
+
+  ion-icon[name="menu"]{
+    color:#fff;
+  }
+  .header-md::after{
+    display: none;
+  }
+  .scroll-content{
+    overflow: hidden;
+  }
+  .mainContent{
+    background:#FF7878;
+    p{
+      color:#fff;
+    }
+  }
+}
+
